@@ -13,5 +13,17 @@ header .line{
 .container {
     max-width: 1140;
     margin: auto;
-    
+}
+
+.header--area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #111111;
+}
+
+.header-left img{
+    height: 64px;
+    width: 64px;
 }
